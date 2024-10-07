@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Citizen Engagement Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Citizen Engagement Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Petitions</a></li>
+        <li><a href="#">Polls</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="language-selector">
+        <label for="language">Choose Language: </label>
+        <select id="language" onchange="changeLanguage(this.value)">
+          <option value="en">English</option>
+          <option value="fr">French</option>
+          <option value="sw">Swahili</option>
+        </select>
+      </div>
+      
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Enhance Your Voice in Governance</h2>
+      <p>Participate in petitions, vote in polls, and engage with government transparency efforts!</p>
+    </section>
+
+    <section class="petitions">
+      <h3>Popular Petitions</h3>
+      <div class="petition-list">
+        <div class="petition-item">
+            <div class="social-share">
+                <p>Share this petition:</p>
+                <a href="https://facebook.com" target="_blank">Facebook</a> | 
+                <a href="https://twitter.com" target="_blank">Twitter</a> | 
+                <a href="https://wa.me/?text=Check this petition" target="_blank">WhatsApp</a>
+              </div>
+              
+          <h4>Improving Healthcare Access</h4>
+          <p>Sign this petition to push for better healthcare policies.</p>
+          <button>Sign Now</button>
+        </div>
+        <div class="petition-item">
+          <h4>Climate Change Action</h4>
+          <p>Urge the government to act on climate change issues.</p>
+          <button>Sign Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="polls">
+      <h3>Active Polls</h3>
+      <div class="poll-item">
+        <h4>Do you support education reforms?</h4>
+        <button>Yes</button>
+        <button>No</button>
+      </div>
+      <div class="poll-item">
+        <h4>Should we increase renewable energy investment?</h4>
+        <button>Yes</button>
+        <button>No</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+        <div class="footer-content">
+          <p>Contact us: <a href="mailto:info@citizenplatform.com">info@citizenplatform.com</a></p>
+          <p>Visit our website: <a href="https://www.citizenplatform.com" target="_blank">www.citizenplatform.com</a></p>
+        </div>
+      
+    <p>© 2024 Citizen Engagement Platform. All Rights Reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
